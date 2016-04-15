@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D61049F31B6DF1EC00E74475 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D61049F21B6DF1EC00E74475 /* btn.wav */; };
+		D666F1041B6DDD7B008096EB /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D666F1031B6DDD7B008096EB /* Minecraft.ttf */; };
 		D6C727621B6DD11D000175C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C727611B6DD11D000175C6 /* AppDelegate.swift */; };
 		D6C727641B6DD11D000175C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C727631B6DD11D000175C6 /* ViewController.swift */; };
 		D6C727671B6DD11D000175C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C727651B6DD11D000175C6 /* Main.storyboard */; };
 		D6C727691B6DD11D000175C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C727681B6DD11D000175C6 /* Assets.xcassets */; };
 		D6C7276C1B6DD11D000175C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C7276A1B6DD11D000175C6 /* LaunchScreen.storyboard */; };
+		FA1856C21C44FD8400A5CBF0 /* Cardiff.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA1856C11C44FD8400A5CBF0 /* Cardiff.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D61049F21B6DF1EC00E74475 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		D666F1031B6DDD7B008096EB /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		D6C7275E1B6DD11D000175C6 /* retro-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "retro-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C727611B6DD11D000175C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C727631B6DD11D000175C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		D6C727681B6DD11D000175C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C7276B1B6DD11D000175C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C7276D1B6DD11D000175C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1856C11C44FD8400A5CBF0 /* Cardiff.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cardiff.otf; path = ../Cardiff.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		D6C727601B6DD11D000175C6 /* retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				FAC9389B1C452411005F5DA5 /* Sounds */,
+				FAC9389A1C4523E7005F5DA5 /* Fonts */,
 				D6C727611B6DD11D000175C6 /* AppDelegate.swift */,
 				D6C727631B6DD11D000175C6 /* ViewController.swift */,
 				D6C727651B6DD11D000175C6 /* Main.storyboard */,
@@ -62,6 +70,23 @@
 				D6C7276D1B6DD11D000175C6 /* Info.plist */,
 			);
 			path = "retro-calculator";
+			sourceTree = "<group>";
+		};
+		FAC9389A1C4523E7005F5DA5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D666F1031B6DDD7B008096EB /* Minecraft.ttf */,
+				FA1856C11C44FD8400A5CBF0 /* Cardiff.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		FAC9389B1C452411005F5DA5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D61049F21B6DF1EC00E74475 /* btn.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +120,7 @@
 				TargetAttributes = {
 					D6C7275D1B6DD11D000175C6 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 59W25WHZNB;
 					};
 				};
 			};
@@ -121,8 +147,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61049F31B6DF1EC00E74475 /* btn.wav in Resources */,
 				D6C7276C1B6DD11D000175C6 /* LaunchScreen.storyboard in Resources */,
 				D6C727691B6DD11D000175C6 /* Assets.xcassets in Resources */,
+				FA1856C21C44FD8400A5CBF0 /* Cardiff.otf in Resources */,
+				D666F1041B6DDD7B008096EB /* Minecraft.ttf in Resources */,
 				D6C727671B6DD11D000175C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +266,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -246,9 +276,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "retro-calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.retro-calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "retro-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -257,9 +288,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "retro-calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.retro-calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "retro-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -283,6 +315,7 @@
 				D6C727721B6DD11D000175C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
